@@ -45,11 +45,11 @@ body {
 
 .navigation_header a {
     text-decoration: none;
-    background: rgb(71, 241, 66);
-    background: -moz-linear-gradient(145deg, rgba(71, 241, 66, 1) 0%, rgba(153, 255, 0, 1) 97%);
-    background: -webkit-linear-gradient(145deg, rgba(71, 241, 66, 1) 0%, rgba(153, 255, 0, 1) 97%);
-    background: linear-gradient(145deg, rgba(71, 241, 66, 1) 0%, rgba(153, 255, 0, 1) 97%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#47f142", endColorstr="#99ff00", GradientType=1);
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(180,180,180,1) 100%);
+    background: -webkit-linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(180,180,180,1) 100%);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(180,180,180,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b4b4b4",GradientType=1); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 1s;
@@ -67,13 +67,15 @@ body {
     border-radius: 10px;
 }
 
+/*
 .content {
     text-align: center;
     color: var(--color-white);
     padding-top: 5em;
     height: 100vh;
     transition: 1s;
-}
+} 
+*/
 
 .btn_icon_header{
     background: transparent;
@@ -183,7 +185,7 @@ footer {
 
 }
 
-/*
+
 .footer-list {
     display: flex;
     flex-direction: column;
@@ -264,9 +266,33 @@ footer {
 
 
 
-
+/*
 .logo-footer {
     height: 30px;
 }
-
 */
+
+footer {
+    background-color: #151515;
+    padding: 28px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+    flex: 1;
+}
+
+.frase-footer {
+    color: #fff;
+}
+
+.mattheus-footer {
+    color: #99ff00;
+}
+
+.logotipo-grande {
+    height: 470px;
+    right: 0;
+}
+
