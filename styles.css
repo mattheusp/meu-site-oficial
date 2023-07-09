@@ -296,3 +296,10 @@ footer {
     right: 0;
 }
 
+.container { /* TODO O CONTAINER */
+    padding: 0 10%;
+}
+
+.container h1 {
+    text-indent: 30px;
+}
